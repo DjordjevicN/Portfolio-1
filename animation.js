@@ -225,6 +225,18 @@ buttonWork.addEventListener('click', () => {
 
         </div>
         <div class="gallery-box">
+            <a href="https://djordjevicn.github.io/weather-summer/" target="_blank"><img
+                    src="https://raw.githubusercontent.com/DjordjevicN/weather-summer/master/weatherSummer.jpg" alt="project"></a>
+            <div class="links">
+                <a href="https://github.com/DjordjevicN/weather-summer/tree/master" target="_blank"> <img
+                        src="./images/github-brands-blue.png" alt=""></a>
+                <a href="https://djordjevicn.github.io/weather-summer/" target="_blank">
+                    <img src="./images/pngguru.com-id-katov.png" alt="">
+                </a>
+            </div>
+
+        </div>
+        <div class="gallery-box">
             <a href="https://djordjevicn.github.io/weather-1/" target="_blank"><img
                     src="./images/projects/weather.jpg" alt="project"></a>
             <div class="links">
