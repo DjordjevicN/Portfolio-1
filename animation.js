@@ -150,6 +150,9 @@ buttonWork.addEventListener('click', () => {
     contentBox.innerHTML = '';
     let workContent = `
     <div class="work-section">
+    <div class="about-title">
+            <h1>Work</h1>
+        </div>
     <div class="gallery-grid">
 
         <div class="gallery-box">

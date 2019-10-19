@@ -102,12 +102,13 @@ span{
     z-index: -1;
     font-size: 500px;
     color: rgb(46, 46, 46);
+    writing-mode: vertical-rl;  
     
 }
 .about-text{
  color: var(--paragraph);
  line-height: 1.5em;
- 
+
 }
 .about-text img{
     width: 20px;
@@ -249,7 +250,7 @@ span{
     } */
     .about-content{
         width: 60%;
-        top:10%;
+        top:7%;
         padding-left: 120px;
     }
     .about-section{
@@ -297,7 +298,7 @@ span{
     }
     .about-content{
         width: 60%;
-        top:5%;
+        top:2%;
         padding-left: 100px;
     }
     .about-section{
