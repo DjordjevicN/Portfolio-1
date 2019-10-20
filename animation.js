@@ -107,30 +107,25 @@ buttonAbout.addEventListener('click', () => {
             <h1>About</h1>
         </div>
         <div class="about-text">
-            <p>Moje ime je Nikola Đorđević. <br>
-            2018. odlučio sam da promenim karijeru. <br>
-            Želeo sam da učim o onome što me jako zanima i ono u čemu sam uživao u svoje slobodno vreme - počeo sam da se ozbiljno bavim kreiranjem web stranica . <br>
-            Te 2018. dao sam otkaz i u potpunosti sam se posvetio učenju i kreiranju. 
-            Preda mnom su bila 2 puta: <br>
-            1 – koji bi bi me ponovo vodio na fakultet<br>
-            2 –  na kome bi učio sam<br>
-            Moja odluka je bila da učim sam. <br>
-            Počeo sam sa <img src="./images/html5.png" alt=""> i  <img src="./images/css3.png" alt="">. 
-            Napravio sam nekoliko landing stranica. <br>
-            S obzirom da sam već radio sa <img class='photoshop' src="./images/photoshop-cc.svg" alt="">, <img src="./images/after-effects-cc.svg" alt="">,   <img src="./images/premiere-cc.svg" alt="">, samostalno sam kreirao mock-up-e i pretvarao ih u code. <br>
-            Kada sam se osetio spremnim da idem dalje, produžio sam na     <img src="./images/JavaScript-logo.png" alt="">. <br>
-            Tada sam uvideo da mi je potreban neko ko će da me usmeri u pravom pravcu. <br>
-            ComTrade je imao Front End Development kurs, koji je davao jak akcenat na JS. <br>Rešio sam da ga upišem. U septembru 2019. diplomirao sam sa ocenom 10. <br>
-            Paralelno sa učenjem, radio sam i JS Algoritme na FreeCodeCamp  i gradio stranice i male aplikacije koje nisu kompletne jer su rađene sa specifičnom idejom i oprobavanjem novih opcija. 
-            Kada sam se osetio komotno u radu sa
-            JS 
-            CSS
-            krenuo sam da učim 
-            <img src="./images/sass.png" alt="">
-            React i da uz pomoć njih gradim aplikacije. 
-            Kuda sada vodi moj put?
-            Želim da se profesionalno bavim web development-om i da napredujem u svom znanju. 
-            
+        My name is Nikola Đorđević.<br>
+        In 2018 I decided to change my career. 
+        I wanted to learn about what I was really interested in and what I enjoyed doing in my free time<br> 
+        and so I began putting serious effort into creating web sites.<br>
+         That same year, 2018, I quit my job and devoted myself completely to studying and creating. <br>
+
+        I had 2 possible roads ahead of me: <br>
+        1 – which would lead me back to university<br>
+        2 – which would mean for me to study on my own<br>
+        I decided to study on my own.
+        <br> I began with   <img src="./images/html5.png" alt="">  and  <img src="./images/css3.png" alt=""> . I created a few landing pages. 
+        As I have already worked in  <img src="./images/photoshop-cc.svg" alt=""> , <img src="./images/after-effects-cc.svg" alt=""> , <img src="./images/premiere-cc.svg" alt=""> , I independently created mock-ups and turned them into code. 
+        <br>When I felt ready to move on, I turned to  <img src="./images/JavaScript-logo.png" alt=""> .<br>
+        <br>Then I realized that I needed someone to help me find the right direction. 
+        ComTrade had a Front End Development course, with a strong focus on JS.
+        I enrolled in it.<br> In September 2019, I graduated with a grade 10.<br> 
+        As I was studying, I also worked on JS algorithms on the FreeCodeCamp and I created pages and small application which are not complete as they have been constructed with a specific idea and testing of new options. When I felt comfortable working with JS i went on to learn React and to create applications with it.
+        Where is the road leading me now?
+        I want to be a professional web developer and to progress my knowledge. 
             </p>
         </div>
     </div>
@@ -142,7 +137,7 @@ buttonAbout.addEventListener('click', () => {
     timeLine
         .to(buttonAbout, .15, { x: 15 })
         .to(buttonAbout, .15, { x: 0 })
-        .from(aboutText, .75, { x: -100, opacity: 0, ease: Circ.easeOut })
+        .from(aboutText, .15, { x: -100, opacity: 0 })
         .to(aboutTitle, 1, { x: -160 })
 
 })
@@ -420,7 +415,7 @@ toggleMenu
     .to(line1, .125, { rotation: -45, ease: Power2.easeInOut }, 'exit')
     .to(line3, .125, { rotation: 45, ease: Power2.easeInOut }, 'exit')
     .to(navList, .1, { x: 0 })
-    .to(navList, 1, { y: 0, opacity: 1 })
+    .to(navList, .25, { y: 0, opacity: 1 })
 
 
 hamburger.addEventListener('click', () => {
