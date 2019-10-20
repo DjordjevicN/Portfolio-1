@@ -27,8 +27,8 @@ body{
     z-index: 100;
 }
 .nav ul{
-    position: absolute;
-    top: 30%;
+    position: fixed;
+    top: 10vh;
 }
 .nav li{
     list-style: none;
