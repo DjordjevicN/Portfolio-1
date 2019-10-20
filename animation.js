@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .from(textFront, .50, { x: -50, ease: Circ.easeOut, opacity: 0 }, 'textEnter')
         .from(gitHubLogo, .50, { y: 50, opacity: 0 }, 'finish')
         .from(linkedInLogo, .50, { y: 50, opacity: 0 }, 'finish')
-        .to(navList, 1, { y: -200, opacity: 0 }, 'finish')
+        .to(navList, .200, { y: -200, opacity: 0 }, 'finish')
         .to(navList, .1, { x: -100 })
 
 })
