@@ -17,7 +17,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     background-color: var(--bg);
-    background-color: red;
+    /* background-color: red; */
     color: white;
 }
 .nav{
@@ -29,7 +29,7 @@ body{
 }
 .nav ul{
     position: fixed;
-    top: 10vh;
+    top: 30vh;
 }
 .nav li{
     list-style: none;
