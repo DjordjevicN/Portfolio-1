@@ -108,11 +108,11 @@ buttonAbout.addEventListener('click', () => {
         </div>
         <div class="about-text">
         My name is Nikola Đorđević.<br>
-        In 2018 I decided to change my career. 
+        In 2018 I decided to change my career. <br>
         I wanted to learn about what I was really interested in and what I enjoyed doing in my free time<br> 
         and so I began putting serious effort into creating web sites.<br>
          That same year, 2018, I quit my job and devoted myself completely to studying and creating. <br>
-
+<br>
         I had 2 possible roads ahead of me: <br>
         1 – which would lead me back to university<br>
         2 – which would mean for me to study on my own<br>
@@ -121,9 +121,9 @@ buttonAbout.addEventListener('click', () => {
         As I have already worked in  <img src="./images/photoshop-cc.svg" alt=""> , <img src="./images/after-effects-cc.svg" alt=""> , <img src="./images/premiere-cc.svg" alt=""> , I independently created mock-ups and turned them into code. 
         <br>When I felt ready to move on, I turned to  <img src="./images/JavaScript-logo.png" alt=""> .<br>
         <br>Then I realized that I needed someone to help me find the right direction. 
-        ComTrade had a Front End Development course, with a strong focus on JS.
+        <br>ComTrade had a Front End Development course, with a strong focus on JS.
         I enrolled in it.<br> In September 2019, I graduated with a grade 10.<br> 
-        As I was studying, I also worked on JS algorithms on the FreeCodeCamp and I created pages and small application which are not complete as they have been constructed with a specific idea and testing of new options. When I felt comfortable working with JS i went on to learn React and to create applications with it.
+        As I was studying, I also worked on JS algorithms on the FreeCodeCamp and I created pages and small application which are not complete as they have been constructed with a specific idea and testing of new options. When I felt comfortable working with JS i went on to learn React and to create applications with it.<br><br>
         Where is the road leading me now?
         I want to be a professional web developer and to progress my knowledge. 
             </p>
@@ -290,11 +290,14 @@ buttonSkills.addEventListener('click', () => {
                     <h1>Skills</h1>
                 </div>
                 <div class="skills-text">
-                    <p>My main expertise is in Front End Development</p>
-                    <p> using HTML, CSS and JavaScript</p>
-                    <p>For animations i am using mostly GSAP and Anime.js </p>
-                    <p>But if i have an idea for website that requires some other language or framework i would learnd it for that project </p>
+                    <p>My main expertise is Front End Development</p>
+                    <p> using HTML, CSS and JavaScript.</p>
                     <p>I am interested in animations and interactive layouts.</p>
+                    <p>For animations I use GSAP and Anime.js </p>
+                   
+                    
+                    <p> I am also familiar with Bootstrap and SASS.<p> 
+                    
 
 
                 </div>
