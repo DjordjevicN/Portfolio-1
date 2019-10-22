@@ -149,6 +149,18 @@ buttonWork.addEventListener('click', () => {
             <h1>Work</h1>
         </div>
     <div class="gallery-grid">
+    <div class="gallery-box">
+            <a href="https://djordjevicn.github.io/tezga-shop-shoes/" target="_blank"><img
+                    src="https://raw.githubusercontent.com/DjordjevicN/tezga-shop-shoes/master/Screenshot_3.jpg" alt="project"></a>
+            <div class="links">
+                <a href="https://github.com/DjordjevicN/tezga-shop-shoes" target="_blank"> <img
+                        src="./images/github-brands-blue.png" alt=""> </a>
+                <a href="https://djordjevicn.github.io/tezga-shop-shoes/" target="_blank">
+                    <img src="./images/pngguru.com-id-katov.png" alt="">
+                </a>
+            </div>
+
+        </div>
 
         <div class="gallery-box">
             <a href="https://djordjevicn.github.io/Star_Wars_Quiz/" target="_blank"><img
