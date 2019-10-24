@@ -145,146 +145,131 @@ buttonWork.addEventListener('click', () => {
     contentBox.innerHTML = '';
     let workContent = `
     <div class="work-section">
-    <div class="about-title">
-            <h1>Work</h1>
-        </div>
-    <div class="gallery-grid">
-    <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/tezga-shop-shoes/" target="_blank"><img
-                    src="https://raw.githubusercontent.com/DjordjevicN/tezga-shop-shoes/master/Screenshot_3.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/tezga-shop-shoes" target="_blank"> <img
-                        src="./images/github-brands-blue.png" alt=""> </a>
-                <a href="https://djordjevicn.github.io/tezga-shop-shoes/" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
+                <div class="about-title">
+                    <h1>Work</h1>
+                </div>
+                <div class="gallery-grid">
+
+
+
+
+
+                    <div class="gallery-box">
+                        <h1 class="work-title">Digital Agency</h1>
+                        <!-- link to PAGE vv-->
+                        <a href="https://djordjevicn.github.io/Digital-Agency/" target="_blank"><img
+                                src="https://raw.githubusercontent.com/DjordjevicN/Digital-Agency/master/Screenshot_2.jpg"
+                                alt="project"></a>
+                        <!-- link to PIC ^^-->
+                        <div class="links">
+                            <!-- link to GITHUB vv  -->
+                            <a href="https://github.com/DjordjevicN/Digital-Agency" target="_blank"> <i
+                                    class="fab fa-github"></i></a>
+                            <!-- link to PAGE -->
+                            <a href="https://djordjevicn.github.io/Digital-Agency/" target="_blank">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="gallery-box">
+                        <h1 class="work-title">Parallax</h1>
+                        <!-- link to PAGE vv-->
+                        <a href="https://djordjevicn.github.io/Parallax-practise-Mountin/" target="_blank"><img
+                                src="https://raw.githubusercontent.com/DjordjevicN/Parallax-practise-Mountin/master/Screenshot_1.jpg"
+                                alt="project"></a>
+                        <!-- link to PIC ^^-->
+                        <div class="links">
+                            <!-- link to GITHUB vv  -->
+                            <a href="https://github.com/DjordjevicN/Parallax-practise-Mountin" target="_blank"> <i
+                                    class="fab fa-github"></i></a>
+                            <!-- link to PAGE -->
+                            <a href="https://djordjevicn.github.io/Parallax-practise-Mountin/" target="_blank">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="gallery-box">
+                        <h1 class="work-title">eShop Shoes</h1>
+                        <!-- link to PAGE vv-->
+                        <a href="https://djordjevicn.github.io/tezga-shop-shoes/" target="_blank"><img
+                                src="https://raw.githubusercontent.com/DjordjevicN/tezga-shop-shoes/master/Screenshot_3.jpg"
+                                alt="project"></a>
+                        <!-- link to PIC ^^-->
+                        <div class="links">
+                            <!-- link to GITHUB vv  -->
+                            <a href="https://github.com/DjordjevicN/tezga-shop-shoes" target="_blank"> <i
+                                    class="fab fa-github"></i></a>
+                            <!-- link to PAGE -->
+                            <a href="https://djordjevicn.github.io/tezga-shop-shoes/" target="_blank">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="gallery-box">
+                        <h1 class="work-title">Food order</h1>
+                        <!-- link to PAGE vv-->
+                        <a href="https://djordjevicn.github.io/eCommerce-Burgelicious/" target="_blank"><img
+                                src="https://raw.githubusercontent.com/DjordjevicN/imagesRep/master/sc2.jpg"
+                                alt="project"></a>
+                        <!-- link to PIC ^^-->
+                        <div class="links">
+                            <!-- link to GITHUB vv  -->
+                            <a href="https://github.com/DjordjevicN/tezga-shop-shoes" target="_blank"> <i
+                                    class="fab fa-github"></i></a>
+                            <!-- link to PAGE -->
+                            <a href="https://djordjevicn.github.io/eCommerce-Burgelicious/" target="_blank">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="gallery-box">
+                        <h1 class="work-title">API movie search</h1>
+                        <!-- link to PAGE vv-->
+                        <a href="https://djordjevicn.github.io/Movie-Search-API-/" target="_blank"><img
+                                src="https://raw.githubusercontent.com/DjordjevicN/Movie-Search-API-/master/moviesearch.jpg"
+                                alt="project"></a>
+                        <!-- link to PIC ^^-->
+                        <div class="links">
+                            <!-- link to GITHUB vv  -->
+                            <a href="https://github.com/DjordjevicN/Movie-Search-API-" target="_blank"> <i
+                                    class="fab fa-github"></i></a>
+                            <!-- link to PAGE -->
+                            <a href="https://djordjevicn.github.io/Movie-Search-API-/" target="_blank">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="gallery-box">
+                        <h1 class="work-title">Landing</h1>
+                        <!-- link to PAGE vv-->
+                        <a href="https://djordjevicn.github.io/kids-shall/" target="_blank"><img
+                                src="https://raw.githubusercontent.com/DjordjevicN/kids-shall/master/ger.jpg"
+                                alt="project"></a>
+                        <!-- link to PIC ^^-->
+                        <div class="links">
+                            <!-- link to GITHUB vv  -->
+                            <a href="https://github.com/DjordjevicN/kids-shall" target="_blank"> <i
+                                    class="fab fa-github"></i></a>
+                            <!-- link to PAGE -->
+                            <a href="https://djordjevicn.github.io/kids-shall/" target="_blank">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
 
-        </div>
-
-        <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/Star_Wars_Quiz/" target="_blank"><img
-                    src="./images/projects/starwars.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/Star_Wars_Quiz" target="_blank"> <img
-                        src="./images/github-brands-blue.png" alt=""> </a>
-                <a href="https://djordjevicn.github.io/Star_Wars_Quiz/" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
-            </div>
-
-        </div>
-        <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/eCommerce-Burgelicious/" target="_blank"><img
-                    src="./images/projects/burger.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/eCommerce-Burgelicious" target="_blank"> <img
-                        src="./images/github-brands-blue.png" alt=""> </a>
-                <a href="https://djordjevicn.github.io/eCommerce-Burgelicious/" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
-            </div>
-
-        </div>
-        <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/kids-shall/" target="_blank"><img
-                    src="./images/projects/ger.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/kids-shall" target="_blank"> <img
-                        src="./images/github-brands-blue.png" alt=""></a>
-                <a href="https://djordjevicn.github.io/kids-shall/" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
-            </div>
-
-        </div>
-        <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/CV-Project-80s/#" target="_blank"><img
-                    src="./images/projects/90cvProject.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/CV-Project-80s" target="_blank"> <img
-                        src="./images/github-brands-blue.png" alt=""> </a>
-                <a href="https://djordjevicn.github.io/CV-Project-80s/#" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
-            </div>
-
-        </div>
-        <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/eCommerce-One/" target="_blank"><img
-                    src="./images/projects/pizza.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/eCommerce-One" target="_blank"> <img
-                        src="./images/github-brands-blue.png" alt=""></a>
-                <a href="https://djordjevicn.github.io/eCommerce-One/" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
-            </div>
-
-        </div>
-        <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/Movie-Search-API-/" target="_blank"><img
-                    src="./images/projects/moviesearch.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/Movie-Search-API-" target="_blank"> <img
-                        src="./images/github-brands-blue.png" alt=""></a>
-                <a href="https://djordjevicn.github.io/Movie-Search-API-/" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
-            </div>
-
-        </div>
-        <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/weather-summer/" target="_blank"><img
-                    src="https://raw.githubusercontent.com/DjordjevicN/weather-summer/master/weatherSummer.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/weather-summer/tree/master" target="_blank"> <img
-                        src="./images/github-brands-blue.png" alt=""></a>
-                <a href="https://djordjevicn.github.io/weather-summer/" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
-            </div>
-
-        </div>
-        <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/weather-1/" target="_blank"><img
-                    src="./images/projects/weather.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/weather-1" target="_blank"> <img
-                        src="./images/github-brands-blue.png" alt=""></a>
-                <a href="https://djordjevicn.github.io/weather-1/" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
-            </div>
-         
-        </div>
-        <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/grid-landing/" target="_blank"><img
-                    src="./images/projects/grid.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/grid-landing" target="_blank"> <img
-                        src="./images/github-brands-blue.png" alt=""></a>
-                <a href="https://djordjevicn.github.io/grid-landing/" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
-            </div>
-
-        </div>
-        <div class="gallery-box">
-            <a href="https://djordjevicn.github.io/responsive-eCommerce-Restaurant-1/" target="_blank"><img
-                    src="./images/projects/Screenshot_5.jpg" alt="project"></a>
-            <div class="links">
-                <a href="https://github.com/DjordjevicN/responsive-eCommerce-Restaurant-1" target="_blank">
-                    <img src="./images/github-brands-blue.png" alt=""></a>
-                <a href="https://djordjevicn.github.io/responsive-eCommerce-Restaurant-1/" target="_blank">
-                    <img src="./images/pngguru.com-id-katov.png" alt="">
-                </a>
-            </div>
-
-        </div>
-
-    </div>
-</div>
 `
     contentBox.innerHTML = workContent;
     let workBox = document.querySelector('.work-section')

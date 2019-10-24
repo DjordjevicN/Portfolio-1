@@ -3,7 +3,7 @@
     --accent:#D93B18 ; 
     --bg:#262626;
     --side-dark:#3d3d3d;
-
+    --title:rgb(68, 68, 68);
     --red-acc:#D93B18;
     --red-dark-acc:#A63117;
     --paragraph:#f2f2f2;
@@ -118,7 +118,7 @@ span{
 /********************************end about*******************************************/
 /*********************************WORK**********************************************/
 .work-section{
-    padding: 100px 200px;
+    padding: 100px 0 100px 200px;
     text-align: center;
     
 }
@@ -126,11 +126,11 @@ span{
     display: grid;
     row-gap: 20px;
     column-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    
+    grid-template-columns: repeat(auto-fit, 400px);
 }
 .gallery-grid img{
-    width: 300px;
+    width: 400px;
+    height: 185px;
 }
 .gallery-grid span{
    width: 2px;
@@ -138,25 +138,25 @@ span{
 }
 .gallery-box{
     display: inline-block;
+    width: 400px;
 }
 .links{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    
+    background-color: var(--accent);    
 }
-.links img{
-    width: 40px;
-    cursor: pointer;
+.links i{
+    font-size: 30px;
+    color: white;
 }
-.links p{
-    color: var(--accent);
-    text-decoration: none;
-    padding: 10px 30px;
-    border: 1px solid var(--accent);
-    display: inline-block;
-    cursor: pointer;
+.work-title{
+    font-weight: 100;
+    padding: 20px 0;
+    color: var(--title);
 }
+
+
 
 /*********************************END WORK****************************************/
 /*****************************skills**************************************/
@@ -186,6 +186,7 @@ span{
  line-height: 1.5em;
 }
 
+
 /****************************contact********************************/
 
 .contact-section{
@@ -211,6 +212,7 @@ span{
  color: var(--paragraph);
  line-height: 1.5em;
  }
+ 
  
  /************************burger***********************************/
  .hamburger{
